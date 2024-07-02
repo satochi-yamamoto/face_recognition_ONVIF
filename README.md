@@ -1,4 +1,4 @@
-# Webcam Face Detection com Câmera IP ONVIF
+#  Face Detection com Câmera IP ONVIF
 
 Este projeto é uma aplicação simples em Python que utiliza uma câmera IP com protocolo ONVIF para detectar rostos e contar quantas pessoas foram identificadas na frente da câmera. Ele usa a biblioteca `OpenCV` para captura de vídeo e detecção de rostos, e `face_recognition` para o reconhecimento e contagem de rostos.
 
