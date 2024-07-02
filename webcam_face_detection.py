@@ -7,7 +7,7 @@ from datetime import datetime
 import logging
 
 # Configuração do logging para gravar no diretório C:\Scan_out
-log_directory = r'C:\Scan_out'
+log_directory = r'C:\caminh\pasta\log'
 log_file = log_directory + r'\face_recognition_app.log'
 
 logging.basicConfig(level=logging.DEBUG,
@@ -48,10 +48,10 @@ def connect_to_onvif_camera(host, port, user, password, max_retries=5):
                 raise
 
 # Configurações da câmera IP ONVIF
-host = '10.10.20.100'  # IP da câmera
+host = '192.168.0.100'  # IP da câmera
 port = 80
 user = 'admin'
-password = 'gap35ds3'
+password = 'admin'
 
 try:
     stream_uri = connect_to_onvif_camera(host, port, user, password)
