@@ -11,6 +11,7 @@ Além disso, o projeto registra a data e a hora de cada rosto identificado em um
 - CMake
 - Visual Studio Build Tools
 
+
 ## Instalação Windows 
 
 1. **Instalar Python**:
