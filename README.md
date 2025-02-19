@@ -12,7 +12,7 @@ Além disso, o projeto registra a data e a hora de cada rosto identificado em um
 - Visual Studio Build Tools
 
 
-## Instalação Windows 
+## Instalação no Windows 
 
 1. **Instalar Python**:
    - Baixe e instale o Python em [python.org](https://www.python.org/downloads/).
@@ -41,7 +41,7 @@ Além disso, o projeto registra a data e a hora de cada rosto identificado em um
    pip install opencv-python-headless face_recognition onvif-zeep
 
 
-## Instalação Linux
+## Instalação em Linux
 
 1. **Instalar Python**:
    - Baixe e instale o Python em [python.org](https://www.python.org/downloads/).
